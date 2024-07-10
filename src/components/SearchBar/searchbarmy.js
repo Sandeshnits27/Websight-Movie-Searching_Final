@@ -22,12 +22,13 @@ export const SearchBar = ({ setResults, apiKey }) => {
 
   return (
     <div className="input-wrapper">
+     
       <input
         placeholder=" Idhar serch karo jii.......😉"
         value={input}
         onChange={(e) => handleChange(e.target.value)}
       />
-      <button className='SearchButton' onClick={fetchData}>SeArCh-MaRo-ReE</button>
+      <a href="https://www.linkedin.com/in/sandipan-biswas-a436982a1/" target="blank2" > <button className='SearchButton' >SeArCh-MaRo-ReE</button></a>
     </div>
   );
 };

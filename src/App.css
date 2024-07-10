@@ -11,4 +11,16 @@ h1 {
 }
 
 
+.login-btn {
+  background-color: #4CAF50;
+  color: #ffffff; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: left;
+}
 
+.login-btn:hover {
+  background-color: #3e8e41; 
+}
